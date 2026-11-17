@@ -1,0 +1,19 @@
+bibentry(
+  bibtype = "Manual",
+  title = "GIR: Gini Index Regression with Bayesian Bootstrap Inference",
+  author = person("David", "Diaz-Villarejo"),
+  year = "2026",
+  note = paste("R package version", meta$Version),
+  header = "To cite the GIR software:"
+)
+
+bibentry(
+  bibtype = "Unpublished",
+  title = "Gini Index Regression",
+  author = c(person(given = "V.", family = "Bhardwaj"),
+             person("David", "Diaz-Villarejo")),
+  year = "2026",
+  note = "Working paper, Universidad Carlos III de Madrid",
+  url = "https://ddiazvil.com/assets/papers/JMP_GIR_DiazVillarejo.pdf",
+  header = "For the estimator and two-stage bootstrap, also cite the working paper:"
+)

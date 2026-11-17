@@ -1,0 +1,26 @@
+Package: GIR
+Type: Package
+Title: Gini Index Regression with Bayesian Bootstrap Inference
+Version: 0.2.1
+Authors@R: person("David", "Diaz-Villarejo", email = "ddiazvil@eco.uc3m.es", role = c("aut", "cre"))
+Description: Fits linear Gini Index Regression models using a least-squares
+    series estimator of the conditional mid-distribution function. Provides
+    a two-stage Bayesian bootstrap, centered confidence intervals, bootstrap
+    standard errors, tests of smooth coefficient transformations, conditional
+    Gini predictions and a GIR-specific goodness-of-fit measure. The estimator
+    and two-stage bootstrap follow Bhardwaj and Diaz-Villarejo (2026),
+    "Gini Index Regression" (working paper, Universidad Carlos III de Madrid)
+    <https://ddiazvil.com/assets/papers/JMP_GIR_DiazVillarejo.pdf>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: splines, stats, utils
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.1
+NeedsCompilation: no
+Packaged: 2026-10-30 10:49:56 UTC; runner
+Author: David Diaz-Villarejo [aut, cre]
+Maintainer: David Diaz-Villarejo <ddiazvil@eco.uc3m.es>
+Repository: CRAN
+Date/Publication: 2026-11-17 16:30:02 UTC
